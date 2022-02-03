@@ -1,2 +1,15 @@
-# Design_Pattern_Example
-Write code for example of Design Pattern
+## Example of Design Pattern Code
+
+- 컴포넌트 패턴
+- 싱글톤 패턴
+- 전략 패턴
+- 팩토리 패턴
+- 팩토리 메소드 패턴
+- 빌더 패턴
+- 추상 팩토리 패턴
+- 프로토타입 패턴
+- 경량 패턴
+- 상태 패턴
+- 옵저버 패턴
+- 어댑터 패턴
+- 명령 패턴
