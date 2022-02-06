@@ -45,12 +45,14 @@ public class Singleton
 		}
 		return _instance;
 
-		/* 멀티쓰레드를 경우에 조금 더 안전하게 사용하고 싶다면
+		/* 멀티쓰레드를 경우에 조금 더 안전하게 사용하고 싶다면, lock{} 을 사용할 수 있다.
+			하지만 컴파일 최적화로 인해 이마저도 순서를 완벽히 보장해주지 못한다.
 		if (_instance == null)
 		{
 			lock (obj)
 			{
-				_instance = new Singleton();
+				if (_instance == null)
+					_instance = new Singleton();
 			}
 		}
 		*/
