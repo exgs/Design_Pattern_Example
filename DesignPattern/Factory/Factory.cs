@@ -11,6 +11,9 @@ using System.Collections.Generic;
 /*
 팩토리 패턴(클래스 버전)
 델리게이트로 구현 할 수도있다.
+
+책에서 본 예제처럼 한 번 객체의 메소드 호출을 위해서 new로 생성한 후에 저장하지 않는 것은 너무 많은 객체 생성을 야기할 것 같아서,
+	MoneyFactory의 메소드에서 생성한 객체를 Bank의 멤버변수에 할당하는 것으로 클래스의 구조를 변형시켰다.
 */
 
 public interface Paper
